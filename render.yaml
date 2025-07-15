@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: telegram-rsi-alert
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    autoDeploy: true
